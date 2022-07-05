@@ -23,7 +23,7 @@ public class HelloWorldApplication extends SpringBootServletInitializer {
 
     @RequestMapping("/")
     String helloWorld() {
-        return "i have successfully deployed the project on production environment";
+        return "have successfully deployed the project on production environment";
     }
 
 }
